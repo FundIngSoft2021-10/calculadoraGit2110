@@ -1,5 +1,7 @@
 package mycalculator;
 
+import static java.lang.Double.NaN;
+
 public class CalculadoraNAMB implements ICalculator {
 
 	@Override
@@ -16,7 +18,11 @@ public class CalculadoraNAMB implements ICalculator {
 	@Override
 	public double divide(double a, double b) {
 		// TODO Auto-generated method stub
-		return a / b;
+		try {
+            return a / b;
+        } catch (Exception e) {
+            return NaN;
+        }
 	}
 
 	@Override
