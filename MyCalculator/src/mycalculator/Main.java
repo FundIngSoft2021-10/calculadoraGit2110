@@ -28,14 +28,14 @@ public class Main {
         //Created by Cristian Javier Da Camara Sousa - CJDCS
         calculadoraCJDCS();
 
-        
-      //Created by Abrahan Ignacio Ayala Acuña - AIAA
+        //Created by Abrahan Ignacio Ayala Acuï¿½a - AIAA
         calculadoraAIAA();
-
-
       
         //Created by Kenneth Leonel Triana - KDLT
         calculadoraKDLT();
+        
+        //Created by Nelson Alejandro Mosquera Barrera - NAMB
+        calculadoraNAMB();
 
     }
 
@@ -110,7 +110,17 @@ public class Main {
           System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
           System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
-    
-    
+    public static void calculadoraNAMB()
+    {
+        double a = 6;
+        double b = 6;
+        CalculadoraNAMB calculadora = new CalculadoraNAMB();
 
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+    
 }
