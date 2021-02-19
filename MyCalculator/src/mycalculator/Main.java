@@ -27,7 +27,9 @@ public class Main {
 
         //Created by Cristian Javier Da Camara Sousa - CJDCS
         calculadoraCJDCS();
-
+      
+        //Created by Kenneth Leonel Triana - KDLT
+        calculadoraKDLT();
     }
 
     /**
@@ -73,4 +75,19 @@ public class Main {
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
+    
+    public static void calculadoraKDLT()
+    {
+    	  double a = 18;
+          double b = 9;
+          CalulatorKDLT calculadora = new CalulatorKDLT();
+
+          System.out.println(calculadora.about());
+          System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+          System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+          System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+          System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+    
+    
 }
