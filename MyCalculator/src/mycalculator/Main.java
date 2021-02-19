@@ -63,7 +63,7 @@ public class Main {
     
      /**
      * Implementación calculadora
-     * @author Juan Pablo Vera Fuentes - JPVF
+     * @author Cristian Javier Da Camara Sousa - CJDCS
      */
     public static void pruebasCalculadoraJPVF()
     {
