@@ -47,8 +47,7 @@ public class Main {
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
     /**
-     * Función para probar la implementación de la calculadora
-     * @author Juan Pablo Ortiz Rubio - JPO
+     * @author Cristian Javier Da Camara Sousa - CJDCS
      */
     public static void calculadoraCJDCS()
     {
@@ -61,10 +60,7 @@ public class Main {
         System.out.println(a+"*"+b+"="+cal.multiply(a,b));
         System.out.println(a+"/"+b+"="+cal.divide(a,b));
     
-     /**
-     * Implementación calculadora
-     * @author Cristian Javier Da Camara Sousa - CJDCS
-     */
+    }
     public static void pruebasCalculadoraJPVF()
     {
         double a = 5;
