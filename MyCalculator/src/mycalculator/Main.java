@@ -22,6 +22,9 @@ public class Main {
         //Created by Juan Pablo Ortiz - JPO
         pruebasCalculadoraJPO();
 
+        //Created by Cristian Javier Da Camara Sousa - CJDCS
+        calculadoraCJDCS();
+
     }
 
     /**
@@ -40,5 +43,19 @@ public class Main {
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
-    
+    /**
+     * Función para probar la implementación de la calculadora
+     * @author Juan Pablo Ortiz Rubio - JPO
+     */
+    public static void calculadoraCJDCS()
+    {
+        CalculadoraCJDCS cal = new CalculadoraCJDCS();
+        double a = 5;
+        double b = 2;
+        System.out.println(cal.about());
+        System.out.println(a+"+"+b+"="+cal.add(a,b));
+        System.out.println(a+"-"+b+"="+cal.substract(a,b));
+        System.out.println(a+"*"+b+"="+cal.multiply(a,b));
+        System.out.println(a+"/"+b+"="+cal.divide(a,b));
+    }
 }
