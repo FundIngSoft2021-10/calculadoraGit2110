@@ -27,6 +27,9 @@ public class Main {
 
         //Created by Cristian Javier Da Camara Sousa - CJDCS
         calculadoraCJDCS();
+        
+      //Created by Abrahan Ignacio Ayala Acuña - AIAA
+        calculadoraAIAA();
 
     }
 
@@ -72,5 +75,18 @@ public class Main {
         System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+    public static void calculadoraAIAA()
+    {
+        
+        double a = 3;
+        double b = 23;
+        CalculadoraAIAA Calculadora = new CalculadoraAIAA();
+        System.out.println(Calculadora.about());
+        System.out.println(a + "+" + b + "=" + Calculadora.add(a,b));
+        System.out.println(a + "-" + b + "=" + Calculadora.substract(a,b));
+        System.out.println(a + "*" + b + "=" + Calculadora.multiply(a,b));
+        System.out.println(a + "/" + b + "=" + Calculadora.divide(a,b));
+    
     }
 }
