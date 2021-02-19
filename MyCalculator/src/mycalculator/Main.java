@@ -21,6 +21,9 @@ public class Main {
 
         //Created by Juan Pablo Ortiz - JPO
         pruebasCalculadoraJPO();
+        
+        //Created by Juan Pablo Vera Fuentes - JPVF
+        pruebasCalculadoraJPVF();
 
     }
 
@@ -41,4 +44,20 @@ public class Main {
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
     
+     /**
+     * Implementación calculadora
+     * @author Juan Pablo Vera Fuentes - JPVF
+     */
+    public static void pruebasCalculadoraJPVF()
+    {
+        double a = 5;
+        double b = 20;
+        CalculadoraJPVF calculadora = new CalculadoraJPVF();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
 }
