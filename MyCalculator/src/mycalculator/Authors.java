@@ -16,6 +16,10 @@ public class Authors {
     public static final String JPO = "Juan Pablo Ortiz";
     public static final String JPVF = "Juan Pablo Vera Fuentes";
     public static final String CJDCS = "Cristian Javier Da Camara Sousa";
+
     public static final String AIAA= "Abrahan Ignacio Ayala Acuña";
+
+    public static final String KDLT ="Kenneth David Leonel Triana";
+
     
 }
