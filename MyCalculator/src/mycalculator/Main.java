@@ -130,7 +130,7 @@ public class Main {
     {
         double a = 40;
         double b = 3;
-        calculadoraCAEG calculadora = new calculadoraCAEG();
+        CalculadoraCAEG calculadora = new CalculadoraCAEG();
 
         System.out.println(calculadora.about());
         System.out.println(a + " + " + b + " = " + calculadora.add(a, b));

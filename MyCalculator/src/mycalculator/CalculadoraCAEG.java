@@ -2,7 +2,7 @@ package mycalculator;
 
 import static java.lang.Double.NaN;
 
-public class CalculadoraNAMB implements ICalculator {
+public class CalculadoraCAEG implements ICalculator {
 
 	@Override
 	public String about() {
