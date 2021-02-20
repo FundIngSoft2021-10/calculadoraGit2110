@@ -6,7 +6,7 @@ public class CalculadoraNAMB implements ICalculator {
 
 	@Override
 	public String about() {
-		return "Calculadora generada por: " + Authors.CAEG;
+		return "Calculator implementend by " + Authors.CAEG;
 	}
 
 	@Override
