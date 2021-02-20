@@ -39,6 +39,8 @@ public class Main {
 
         //Created by Carlos Andres Erazo Garzon - CAEG
         calculadoraCAEG();
+        //Created by Camilo Andres Garcia Silva - CAGS
+        calculadoraCAGS();
 
     }
 
@@ -131,6 +133,18 @@ public class Main {
         double a = 40;
         double b = 3;
         CalculadoraCAEG calculadora = new CalculadoraCAEG();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+    public static void calculadoraCAGS()
+    {
+        double a = 19;
+        double b = 21;
+        CalculadoraCAGS calculadora = new CalculadoraCAGS();
 
         System.out.println(calculadora.about());
         System.out.println(a + " + " + b + " = " + calculadora.add(a, b));

@@ -22,5 +22,6 @@ public class Authors {
     public static final String KDLT ="Kenneth David Leonel Triana";
 
     public static final String CAEG ="Carlos Andres Erazo Garzon";
+    public static final String CAGS= "Camilo Andres García Silva";
     
 }
