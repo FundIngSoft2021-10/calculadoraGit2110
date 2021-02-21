@@ -160,7 +160,7 @@ public class Main {
     {
         double a = 11;
         double b = 20;
-        CalculadoraCAGS calculadora = new calculadoraDARM();
+        CalculadoraDARM calculadora = new CalculadoraDARM();
 
         System.out.println(calculadora.about());
         System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
