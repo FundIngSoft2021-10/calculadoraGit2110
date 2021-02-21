@@ -44,6 +44,9 @@ public class Main {
         
         //Created by David Andres Ramirez Monroy - DARM
         calculadoraDARM();
+
+        //Created by David Alejandro Castillo Chiquiza - DACC
+        calculadoraDACC();
       
     }
 
@@ -169,4 +172,16 @@ public class Main {
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));  
     }
     
+    public static void calculadoraDACC(){
+
+        double a = 44;
+        double b = 7;
+        CalculadoraDACC calculadora = new CalculadoraDACC();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "="+ calculadora.add(a, b));
+        System.out.println(a + "-" + b + "="+ calculadora.substract(a, b));
+        System.out.println(a + "*" + b + "="+ calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "="+ calculadora.divide(a, b));        
+    }
 }
