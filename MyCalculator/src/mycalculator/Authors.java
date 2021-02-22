@@ -57,5 +57,5 @@ public class Authors {
     
     public static final String LFAO= "Luis Felipe Ariza Ortiz";
     
-    
+    public static final String JCSM = "Juan Carlos Suarez Motta";
 }
