@@ -72,6 +72,9 @@ public class Main {
         
         //Created by Loui Gerard Velez Quintero
         CalculadoraLGVQ();
+
+        //Crated by Andres Felipe Dorado Roncancio
+        CalculadoraAFDR();
     }
 
     /**
@@ -305,6 +308,15 @@ public class Main {
         System.out.println(a + " - " + b + "= " + calLGVQ.substract(a,b));
         System.out.println(a + " / " + b + "= " + calLGVQ.divide(a,b));
     }
-
+    public static void CalculadoraAFDR(){
+        CalculadoraAFDR Calculadora=new CalculadoraAFDR();
+        double a=49;
+        double b=78;
+        System.out.println(Calculadora.about());
+        System.out.println(a + " + " + b + "= " + Calculadora.add(a,b));
+        System.out.println(a + " * " + b + "= " + Calculadora.multiply(a,b));
+        System.out.println(a + " - " + b + "= " + Calculadora.substract(a,b));
+        System.out.println(a + " / " + b + "= " + Calculadora.divide(a,b));
+    }
 
 }
