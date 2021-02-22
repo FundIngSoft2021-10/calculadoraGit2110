@@ -18,7 +18,8 @@ public class Main {
 
         //Create calculator implementation
         System.out.println("Git Calculator!");
-
+/*
+ 
         //Created by Juan Pablo Ortiz - JPO
         pruebasCalculadoraJPO();
         
@@ -41,6 +42,10 @@ public class Main {
         calculadoraCAEG();
         //Created by Camilo Andres Garcia Silva - CAGS
         calculadoraCAGS();
+        * 
+ */
+        //Creado por felipe b
+        calculadoraAFBB();
 
     }
 
@@ -68,6 +73,18 @@ public class Main {
         CalculadoraCJDCS cal = new CalculadoraCJDCS();
         double a = 5;
         double b = 2;
+        System.out.println(cal.about());
+        System.out.println(a+"+"+b+"="+cal.add(a,b));
+        System.out.println(a+"-"+b+"="+cal.substract(a,b));
+        System.out.println(a+"*"+b+"="+cal.multiply(a,b));
+        System.out.println(a+"/"+b+"="+cal.divide(a,b));
+    
+    }
+    public static void calculadoraAFBB()
+    {
+        CalculadoraAFBB cal = new CalculadoraAFBB();
+        double a = 4;
+        double b = 20;
         System.out.println(cal.about());
         System.out.println(a+"+"+b+"="+cal.add(a,b));
         System.out.println(a+"-"+b+"="+cal.substract(a,b));
