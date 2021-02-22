@@ -49,6 +49,9 @@ public class Main {
         
       //Created by Cristian Camilo Contreras Borja - CCCB
         calculadoraCCCB();
+
+        //Created by Diego Alejandro Cardozo Rojas - DACR      
+        CalculadoraDACR();
     }
 
     /**
@@ -183,5 +186,16 @@ public class Main {
         System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
+    public static void CalculadoraDACR() {
+        double a = 420;
+        double b = 69;
+        CalculadoraDACR calculadora = new CalculadoraDACR();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "="+ calculadora.add(a, b));
+        System.out.println(a + "*" + b + "="+ calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "="+ calculadora.divide(a, b)); 
+        System.out.println(a + "-" + b + "="+ calculadora.substract(a, b)); 
     }
 }
