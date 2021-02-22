@@ -69,6 +69,9 @@ public class Main {
         CalculadoraPJRN();
         //Created by David Santiago Saavedra Riaño - DSSR
         CalculadoraDSSR();
+        
+        //Created by Loui Gerard Velez Quintero
+        CalculadoraLGVQ();
     }
 
     /**
@@ -291,6 +294,16 @@ public class Main {
         System.out.println(a + " * " + b + "= " + Calculadora.multiply(a,b));
         System.out.println(a + " - " + b + "= " + Calculadora.substract(a,b));
         System.out.println(a + " / " + b + "= " + Calculadora.divide(a,b));
+    }
+    public static void CalculadoraLGVQ(){
+        double a =544;
+        double b = 53;
+        CalculadoraLGVQ calLGVQ = new CalculadoraLGVQ();
+        System.out.println(calLGVQ.about());
+        System.out.println(a + " + " + b + "= " + calLGVQ.add(a,b));
+        System.out.println(a + " * " + b + "= " + calLGVQ.multiply(a,b));
+        System.out.println(a + " - " + b + "= " + calLGVQ.substract(a,b));
+        System.out.println(a + " / " + b + "= " + calLGVQ.divide(a,b));
     }
 
 
