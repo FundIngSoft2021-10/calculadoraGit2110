@@ -19,10 +19,10 @@ public class Main {
         //Create calculator implementation
         System.out.println("Git Calculator!");
 
- 
+
         //Created by Juan Pablo Ortiz - JPO
         pruebasCalculadoraJPO();
-        
+
         //Created by Juan Pablo Vera Fuentes - JPVF
         pruebasCalculadoraJPVF();
 
@@ -31,10 +31,10 @@ public class Main {
 
         //Created by Abrahan Ignacio Ayala Acu�a - AIAA
         calculadoraAIAA();
-      
+
         //Created by Kenneth Leonel Triana - KDLT
         calculadoraKDLT();
-        
+
         //Created by Nelson Alejandro Mosquera Barrera - NAMB
         calculadoraNAMB();
 
@@ -42,16 +42,19 @@ public class Main {
         calculadoraCAEG();
         //Created by Camilo Andres Garcia Silva - CAGS
         calculadoraCAGS();
-        
- 
+
+
         //Creado por felipe b
         calculadoraAFBB();
-        
+
       //Created by Cristian Camilo Contreras Borja - CCCB
         calculadoraCCCB();
 
-        //Created by Diego Alejandro Cardozo Rojas - DACR      
+        //Created by Diego Alejandro Cardozo Rojas - DACR
         CalculadoraDACR();
+
+        //Creted by Fabio Alejandro Camargo Díaz
+        CalculadoraFACD();
     }
 
     /**
@@ -83,7 +86,7 @@ public class Main {
         System.out.println(a+"-"+b+"="+cal.substract(a,b));
         System.out.println(a+"*"+b+"="+cal.multiply(a,b));
         System.out.println(a+"/"+b+"="+cal.divide(a,b));
-    
+
     }
     public static void calculadoraAFBB()
     {
@@ -95,7 +98,7 @@ public class Main {
         System.out.println(a+"-"+b+"="+cal.substract(a,b));
         System.out.println(a+"*"+b+"="+cal.multiply(a,b));
         System.out.println(a+"/"+b+"="+cal.divide(a,b));
-    
+
     }
     public static void pruebasCalculadoraJPVF()
     {
@@ -112,7 +115,7 @@ public class Main {
 
     public static void calculadoraAIAA()
     {
-        
+
         double a = 3;
         double b = 23;
         CalculadoraAIAA Calculadora = new CalculadoraAIAA();
@@ -121,10 +124,10 @@ public class Main {
         System.out.println(a + "-" + b + "=" + Calculadora.substract(a,b));
         System.out.println(a + "*" + b + "=" + Calculadora.multiply(a,b));
         System.out.println(a + "/" + b + "=" + Calculadora.divide(a,b));
-    
+
     }
 
-    
+
     public static void calculadoraKDLT()
     {
     	  double a = 18;
@@ -174,7 +177,7 @@ public class Main {
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
-    
+
     public static void calculadoraCCCB()
     {
         double a = 10;
@@ -195,7 +198,18 @@ public class Main {
         System.out.println(calculadora.about());
         System.out.println(a + "+" + b + "="+ calculadora.add(a, b));
         System.out.println(a + "*" + b + "="+ calculadora.multiply(a, b));
-        System.out.println(a + "/" + b + "="+ calculadora.divide(a, b)); 
-        System.out.println(a + "-" + b + "="+ calculadora.substract(a, b)); 
+        System.out.println(a + "/" + b + "="+ calculadora.divide(a, b));
+        System.out.println(a + "-" + b + "="+ calculadora.substract(a, b));
+    }
+
+    public static void CalculadoraFACD(){
+        double a = 38;
+        double b = 26;
+        CalculadoraFACD calc = new CalculadoraFACD();
+        System.out.println(calc.about());
+        System.out.println(a + " + " + b+ "= " + calc.add(a,b));
+        System.out.println(a + " * " + b+ "= " + calc.multiply(a,b));
+        System.out.println(a + " - " + b+ "= " + calc.substract(a,b));
+        System.out.println(a + " / " + b+ "= " + calc.divide(a,b));
     }
 }
