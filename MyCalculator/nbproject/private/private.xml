@@ -8,11 +8,18 @@
             <file>file:/C:/Users/anmontero/Documents/Netbeans82Workspace/MyCalculator/src/mycalculator/ICalculator.java</file>
         </group>
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/davis/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/d4/codes/semesters/7th_semester/software_engineering/quiz_2/calculadoraGit2110/MyCalculator/src/mycalculator/CalculadoraCAGS.java</file>
             <file>file:/C:/Users/davis/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/d4/codes/semesters/7th_semester/software_engineering/quiz_2/calculadoraGit2110/MyCalculator/src/mycalculator/ICalculator.java</file>
             <file>file:/C:/Users/davis/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/d4/codes/semesters/7th_semester/software_engineering/quiz_2/calculadoraGit2110/MyCalculator/src/mycalculator/CalculadoraDARM.java</file>
             <file>file:/C:/Users/davis/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/d4/codes/semesters/7th_semester/software_engineering/quiz_2/calculadoraGit2110/MyCalculator/src/mycalculator/Main.java</file>
             <file>file:/C:/Users/davis/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu20.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/d4/codes/semesters/7th_semester/software_engineering/quiz_2/calculadoraGit2110/MyCalculator/src/mycalculator/Authors.java</file>
+=======
+            <file>file:/C:/Users/57313/Documents/ProyectosIS/Calculadora/calculadoraGit2110/MyCalculator/src/mycalculator/Authors.java</file>
+            <file>file:/C:/Users/57313/Documents/ProyectosIS/Calculadora/calculadoraGit2110/MyCalculator/src/mycalculator/CalculadoraDACR.java</file>
+            <file>file:/C:/Users/57313/Documents/ProyectosIS/Calculadora/calculadoraGit2110/MyCalculator/src/mycalculator/Main.java</file>
+            <file>file:/C:/Users/57313/Documents/ProyectosIS/Calculadora/calculadoraGit2110/MyCalculator/src/mycalculator/CalculadoraDSSR.java</file>
+>>>>>>> 1f3a6b2213a98eb48456846f9a4b3db72af71248
         </group>
     </open-files>
 </project-private>
