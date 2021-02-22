@@ -46,7 +46,9 @@ public class Main {
  
         //Creado por felipe b
         calculadoraAFBB();
-
+        
+      //Created by Cristian Camilo Contreras Borja - CCCB
+        calculadoraCCCB();
     }
 
     /**
@@ -170,4 +172,16 @@ public class Main {
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
     
+    public static void calculadoraCCCB()
+    {
+        double a = 10;
+        double b = 2;
+        CalculadoraCCCB calculadora = new CalculadoraCCCB();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
 }
