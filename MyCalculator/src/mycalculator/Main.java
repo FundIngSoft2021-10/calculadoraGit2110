@@ -25,6 +25,9 @@ public class Main {
 
         //Created by Juan Pablo Vera Fuentes - JPVF
         pruebasCalculadoraJPVF();
+        
+        //Created by Diego Fernando Sanchez Leyton - DFSL
+        pruebasCalculadoraDFSL();
 
         //Created by Cristian Javier Da Camara Sousa - CJDCS
         calculadoraCJDCS();
@@ -132,7 +135,19 @@ public class Main {
         System.out.println(a + "/" + b + "=" + Calculadora.divide(a,b));
 
     }
+    
+    public static void pruebasCalculadoraDFSL()
+    {
+        double a = 11;
+        double b = 7;
+        CalculadoraDFSL calculadora = new CalculadoraDFSL();
 
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+    }
 
     public static void calculadoraKDLT()
     {
