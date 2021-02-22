@@ -78,6 +78,10 @@ public class Main {
 
         //Created by Camilo Andr�s Sandoval Guayambuco - CASG
         CalculadoraCASG();
+        
+        //Created by William Orlando Rodriguez Buitrago - WORB
+        calculadoraWORB();
+        
     }
 
     /**
@@ -336,6 +340,19 @@ public class Main {
         System.out.println(a + " * " + b + "= " + Calculadora.multiply(a,b));
         System.out.println(a + " - " + b + "= " + Calculadora.substract(a,b));
         System.out.println(a + " / " + b + "= " + Calculadora.divide(a,b));
+    }
+    
+    public static void calculadoraWORB()
+    {
+        double a = 14;
+        double b = 17;
+        CalculadoraWORB calculadora = new CalculadoraWORB();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));  
     }
 
 }
