@@ -75,6 +75,9 @@ public class Main {
 
         //Crated by Andres Felipe Dorado Roncancio
         CalculadoraAFDR();
+
+        //Created by Camilo Andr�s Sandoval Guayambuco - CASG
+        CalculadoraCASG();
     }
 
     /**
@@ -307,6 +310,22 @@ public class Main {
         System.out.println(a + " * " + b + "= " + calLGVQ.multiply(a,b));
         System.out.println(a + " - " + b + "= " + calLGVQ.substract(a,b));
         System.out.println(a + " / " + b + "= " + calLGVQ.divide(a,b));
+    }
+    /**
+     * @author Camilo Andr�s Sandoval Guayambuco - CASG
+     */
+
+    public static void CalculadoraCASG()
+    {
+        CalculadoraCASG calcasg = new CalculadoraCASG();
+        double a = 10;
+        double b = 26;
+        System.out.println(calcasg.about());
+        System.out.println(a+"+"+b+"="+calcasg.add(a,b));
+        System.out.println(a+"-"+b+"="+calcasg.substract(a,b));
+        System.out.println(a+"*"+b+"="+calcasg.multiply(a,b));
+        System.out.println(a+"/"+b+"="+calcasg.divide(a,b));
+
     }
     public static void CalculadoraAFDR(){
         CalculadoraAFDR Calculadora=new CalculadoraAFDR();
