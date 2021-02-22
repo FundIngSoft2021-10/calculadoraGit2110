@@ -58,6 +58,8 @@ public class Main {
 
         //Created by Paula Juliana Rojas Naranjo -PJRN
         CalculadoraPJRN();
+        //Created by David Santiago Saavedra Riaño - DSSR
+        CalculadoraDSSR();
     }
 
     /**
@@ -232,5 +234,17 @@ public class Main {
         System.out.println(a + " - " + b + "= " + calcPJRN.substract(a,b));
         System.out.println(a + " / " + b + "= " + calcPJRN.divide(a,b));
     }
+    public static void CalculadoraDSSR(){
+        double a = 800;
+        double b = 45;
+        CalculadoraDSSR Calculadora = new CalculadoraDSSR();
+
+        System.out.println(Calculadora.about());
+        System.out.println(a + " + " + b + "= " + Calculadora.add(a,b));
+        System.out.println(a + " * " + b + "= " + Calculadora.multiply(a,b));
+        System.out.println(a + " - " + b + "= " + Calculadora.substract(a,b));
+        System.out.println(a + " / " + b + "= " + Calculadora.divide(a,b));
+    }
+
 
 }
