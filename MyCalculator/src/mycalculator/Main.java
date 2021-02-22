@@ -55,6 +55,9 @@ public class Main {
 
         //Creted by Fabio Alejandro Camargo Díaz
         CalculadoraFACD();
+
+        //Created by Paula Juliana Rojas Naranjo -PJRN
+        CalculadoraPJRN();
     }
 
     /**
@@ -76,6 +79,7 @@ public class Main {
     /**
      * @author Cristian Javier Da Camara Sousa - CJDCS
      */
+
     public static void calculadoraCJDCS()
     {
         CalculadoraCJDCS cal = new CalculadoraCJDCS();
@@ -212,4 +216,21 @@ public class Main {
         System.out.println(a + " - " + b+ "= " + calc.substract(a,b));
         System.out.println(a + " / " + b+ "= " + calc.divide(a,b));
     }
+
+     /**
+     * @author Paula Juliana Rojas Naranjo
+     */
+    
+    public static void CalculadoraPJRN(){
+        double a = 101;
+        double b = 14;
+        CalculadoraPJRN calcPJRN = new CalculadoraPJRN();
+
+        System.out.println(calcPJRN.about());
+        System.out.println(a + " + " + b + "= " + calcPJRN.add(a,b));
+        System.out.println(a + " * " + b + "= " + calcPJRN.multiply(a,b));
+        System.out.println(a + " - " + b + "= " + calcPJRN.substract(a,b));
+        System.out.println(a + " / " + b + "= " + calcPJRN.divide(a,b));
+    }
+
 }
