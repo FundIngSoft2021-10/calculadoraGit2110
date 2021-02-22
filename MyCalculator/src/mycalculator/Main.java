@@ -49,11 +49,9 @@ public class Main {
         //Created by David Andres Ramirez Monroy - DARM
         calculadoraDARM();
 
-<<<<<<< HEAD
         //Created by David Alejandro Castillo Chiquiza - DACC
         calculadoraDACC();
       
-=======
 
         //Creado por felipe b
         calculadoraAFBB();
@@ -71,7 +69,6 @@ public class Main {
         CalculadoraPJRN();
         //Created by David Santiago Saavedra Riaño - DSSR
         CalculadoraDSSR();
->>>>>>> 1f3a6b2213a98eb48456846f9a4b3db72af71248
     }
 
     /**
@@ -247,7 +244,6 @@ public class Main {
      * @author Paula Juliana Rojas Naranjo
      */
     
-<<<<<<< HEAD
     public static void calculadoraDARM()
     {
         double a = 11;
@@ -273,7 +269,7 @@ public class Main {
         System.out.println(a + "*" + b + "="+ calculadora.multiply(a, b));
         System.out.println(a + "/" + b + "="+ calculadora.divide(a, b));        
     }
-=======
+    
     public static void CalculadoraPJRN(){
         double a = 101;
         double b = 14;
@@ -298,5 +294,4 @@ public class Main {
     }
 
 
->>>>>>> 1f3a6b2213a98eb48456846f9a4b3db72af71248
 }

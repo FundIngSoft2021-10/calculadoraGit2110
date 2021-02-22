@@ -24,18 +24,15 @@ public class Authors {
 
     public static final String CAEG ="Carlos Andres Erazo Garzon";
     public static final String CAGS= "Camilo Andres Garc�a Silva";
-<<<<<<< HEAD
     
     public static final String DARM = "David Andres Ramirez Monroy";
 
     public static final String DACC = "David Alejandro Castillo Chiquiza";
     
-=======
 	public static final String AFBB = "Andres Felipe Becerra Barrera";
 	public static final String CCCB = "Cristian Camilo Contreras Borja";
     public static final String DACR = "Diego Alejandro Cardozo Rojas";
     public static final String PJRN = "Paula Juliana Rojas Naranjo";
     public static final String FACD = "Fabio Alejandro Camargo Diaz"; 
      public static final String DSSR= "David Santiago Saavedra Riaño"; 
->>>>>>> 1f3a6b2213a98eb48456846f9a4b3db72af71248
 }
