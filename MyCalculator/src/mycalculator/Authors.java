@@ -48,4 +48,6 @@ public class Authors {
     public static final String DSSR= "David Santiago Saavedra RiaÃ±o"; 
     
     public static final String LGVQ= "Loui Gerard Velez Quintero";
+    
+    public static final String CASG= "Camilo Andrés Sandoval Guayambuco";
 }
