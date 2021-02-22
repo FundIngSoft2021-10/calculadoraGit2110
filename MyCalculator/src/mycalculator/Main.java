@@ -18,7 +18,7 @@ public class Main {
 
         //Create calculator implementation
         System.out.println("Git Calculator!");
-/*
+
  
         //Created by Juan Pablo Ortiz - JPO
         pruebasCalculadoraJPO();
@@ -42,8 +42,8 @@ public class Main {
         calculadoraCAEG();
         //Created by Camilo Andres Garcia Silva - CAGS
         calculadoraCAGS();
-        * 
- */
+        
+ 
         //Creado por felipe b
         calculadoraAFBB();
 
