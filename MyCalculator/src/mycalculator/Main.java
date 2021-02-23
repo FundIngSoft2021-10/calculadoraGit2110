@@ -87,6 +87,9 @@ public class Main {
 
         //Created by Juan Carlos Suarez Motta - JCSM
         calculadoraJCSM(); 
+
+        //Created by Brayan Estiben Giraldo Lopez - BEGL
+        CalculadoraBEGL(); 
     }
 
     /**
@@ -377,6 +380,18 @@ public class Main {
         double a = 8; 
         double b = 12; 
         CalculadoraJCSM calculadora = new CalculadoraJCSM();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "=" + calculadora.add(a,b));
+        System.out.println(a + "-" + b + "=" + calculadora.substract(a,b));
+        System.out.println(a + "*" + b + "=" + calculadora.multiply(a,b));
+        System.out.println(a + "/" + b + "=" + calculadora.divide(a,b));        
+    }
+
+    public static void CalculadoraBEGL(){
+        double a = 75; 
+        double b = 69; 
+        CalculadoraBEGL calculadora = new CalculadoraBEGL();
 
         System.out.println(calculadora.about());
         System.out.println(a + "+" + b + "=" + calculadora.add(a,b));
