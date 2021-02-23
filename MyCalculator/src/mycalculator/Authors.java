@@ -69,4 +69,6 @@ public class Authors {
     
     public static final String FAOV = "Fabian Andres Olarte Vargas";
     
+    public static final String JSRB = "Juan Sebastian Ruiz Bulla";
+    
 }

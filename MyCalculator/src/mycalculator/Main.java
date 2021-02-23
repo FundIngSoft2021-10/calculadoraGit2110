@@ -103,6 +103,9 @@ public class Main {
         
         //Created by Fabian Andres Olarte Vargas - FAOV
         CalculadoraFAOV();
+        
+      //Created by Juan Sebastian Ruiz - JSRB
+        CalculadoraJSRB();
     }
 
 	/**
@@ -465,5 +468,17 @@ public class Main {
         System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));  
+    }
+    
+    public static void CalculadoraJSRB() {
+        double a = 128;
+        double b = 32;
+        CalculadoraJSRB calculadora = new CalculadoraJSRB();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + "+" + b + "="+ calculadora.add(a, b));
+        System.out.println(a + "*" + b + "="+ calculadora.multiply(a, b));
+        System.out.println(a + "/" + b + "="+ calculadora.divide(a, b)); 
+        System.out.println(a + "-" + b + "="+ calculadora.substract(a, b)); 
     }
 }
