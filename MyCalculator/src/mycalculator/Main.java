@@ -35,6 +35,9 @@ public class Main {
         //Created by Abrahan Ignacio Ayala Acu�a - AIAA
         calculadoraAIAA();
 
+        //Created by Kevin Andres Garzon Ospina - KAGO
+        calculadoraKAGO();
+        
         //Created by Kenneth Leonel Triana - KDLT
         calculadoraKDLT();
 
@@ -43,6 +46,7 @@ public class Main {
 
         //Created by Carlos Andres Erazo Garzon - CAEG
         calculadoraCAEG();
+        
         //Created by Camilo Andres Garcia Silva - CAGS
         calculadoraCAGS();
         
@@ -52,7 +56,6 @@ public class Main {
         //Created by David Alejandro Castillo Chiquiza - DACC
         calculadoraDACC();
       
-
         //Creado por felipe b
         calculadoraAFBB();
 
@@ -67,6 +70,7 @@ public class Main {
 
         //Created by Paula Juliana Rojas Naranjo -PJRN
         CalculadoraPJRN();
+        
         //Created by David Santiago Saavedra Riaño - DSSR
         CalculadoraDSSR();
         
@@ -98,7 +102,7 @@ public class Main {
         CalculadoraFAOV();
     }
 
-    /**
+	/**
      * Función para probar la implementación de la calculadora
      * @author Juan Pablo Ortiz Rubio - JPO
      */
@@ -219,6 +223,21 @@ public class Main {
         System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
     }
+    
+    private static void calculadoraKAGO() 
+    {
+    	double a = 27;
+        double b = 95;
+        CalculadoraKAGO calculadora = new CalculadoraKAGO();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
+		
+	}
+    
     public static void calculadoraCAGS()
     {
         double a = 19;

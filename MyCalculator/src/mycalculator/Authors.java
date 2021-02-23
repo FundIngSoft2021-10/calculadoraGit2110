@@ -24,6 +24,8 @@ public class Authors {
     public static final String CJDCS = "Cristian Javier Da Camara Sousa";
 
     public static final String AIAA= "Abrahan Ignacio Ayala Acu�a";
+    
+    public static final String KAGO = "Kevin Andres Garzon Ospina";
 
     public static final String KDLT ="Kenneth David Leonel Triana";
 
