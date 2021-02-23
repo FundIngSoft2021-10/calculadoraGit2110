@@ -63,4 +63,6 @@ public class Authors {
 
     public static final String AFGM = "Andres Felipe Giraldo Malagon";
     
+    public static final String FAOV = "Fabian Andres Olarte Vargas";
+    
 }

@@ -93,6 +93,9 @@ public class Main {
 
         //Created by Andres Felipe Girldo Malagon - AFGM
         calculadoraAFGM();
+        
+        //Created by Fabian Andres Olarte Vargas - FAOV
+        CalculadoraFAOV();
     }
 
     /**
@@ -408,6 +411,19 @@ public class Main {
         double a = 54;
         double b = 1;
         CalculadoraAFGM calculadora = new CalculadoraAFGM();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));  
+    }
+    
+    public static void CalculadoraFAOV()
+    {
+        double a = 3;
+        double b = 7;
+        CalculadoraFAOV calculadora = new CalculadoraFAOV();
 
         System.out.println(calculadora.about());
         System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
