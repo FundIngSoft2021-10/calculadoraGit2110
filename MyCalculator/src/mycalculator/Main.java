@@ -76,6 +76,9 @@ public class Main {
         
         //Created by Loui Gerard Velez Quintero
         CalculadoraLGVQ();
+        
+        //Created by Nicolas David Gil Hernandez
+        calculadoraNDGH();
 
         //Crated by Andres Felipe Dorado Roncancio
         CalculadoraAFDR();
@@ -237,6 +240,19 @@ public class Main {
         System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));
 		
 	}
+    
+    public static void calculadoraNDGH() {
+        double a = 121;
+        double b = 11;
+        CalculadoraNDGH calculator = new CalculadoraNDGH();
+
+        System.out.println(calculator.about());
+        System.out.println(a + " + " + b + " = "+ calculator.add(a, b));
+        System.out.println(a + " * " + b + " = "+ calculator.divide(a, b));
+        System.out.println(a + " / " + b + " = "+ calculator.multiply(a, b));
+        System.out.println(a + " - " + b + " = "+ calculator.substract(a, b));
+    }
+    
     
     public static void calculadoraCAGS()
     {

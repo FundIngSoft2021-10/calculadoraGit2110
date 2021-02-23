@@ -31,6 +31,8 @@ public class Authors {
 
     public static final String CAEG ="Carlos Andres Erazo Garzon";
     
+    public static final String NDGH ="Nicolas David Gil Hernandez";
+    
     public static final String CAGS= "Camilo Andres Garc�a Silva";
     
     public static final String DARM = "David Andres Ramirez Monroy";
