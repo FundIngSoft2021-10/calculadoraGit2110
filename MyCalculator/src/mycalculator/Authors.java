@@ -60,5 +60,7 @@ public class Authors {
     public static final String JCSM = "Juan Carlos Suarez Motta";
 
     public static final String BEGL = "Brayan Estiben Giraldo Lopez";
+
+    public static final String AFGM = "Andres Felipe Giraldo Malagon";
     
 }

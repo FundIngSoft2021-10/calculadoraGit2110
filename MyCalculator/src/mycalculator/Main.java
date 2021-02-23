@@ -90,6 +90,9 @@ public class Main {
 
         //Created by Brayan Estiben Giraldo Lopez - BEGL
         CalculadoraBEGL(); 
+
+        //Created by Andres Felipe Girldo Malagon - AFGM
+        calculadoraAFGM();
     }
 
     /**
@@ -400,4 +403,16 @@ public class Main {
         System.out.println(a + "/" + b + "=" + calculadora.divide(a,b));        
     }
 
+    public static void calculadoraAFGM()
+    {
+        double a = 54;
+        double b = 1;
+        CalculadoraAFGM calculadora = new CalculadoraAFGM();
+
+        System.out.println(calculadora.about());
+        System.out.println(a + " + " + b + " = " + calculadora.add(a, b));
+        System.out.println(a + " - " + b + " = " + calculadora.substract(a, b));
+        System.out.println(a + " * " + b + " = " + calculadora.multiply(a, b));
+        System.out.println(a + " / " + b + " = " + calculadora.divide(a, b));  
+    }
 }
